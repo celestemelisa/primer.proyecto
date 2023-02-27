@@ -1,0 +1,219 @@
+
+/*font-family: 'Lexend', sans-serif;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase; ESTO ES MAYUSCULA
+
+*/
+#habilidades{
+    height: auto;
+    background-color: #EBDEF0;
+}
+
+header {
+    display:flex;
+}
+
+header nav {
+    padding-left: 450px;
+
+   
+}
+
+header a {
+    text-decoration:none;
+    text-align: center;
+    padding-left: 100px;
+    text-transform: uppercase;
+    font-family: 'Lexend', sans-serif;
+    color: #512E5F ;
+    
+}
+
+.habilidades-lista button {
+
+    background-color: #D7BDE2 ;
+    font-weight: bold;
+    color:#00000c;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #D7BDE2 ;
+    border-radius: .5rem;
+    cursor: pointer;
+    box-shadow: .5rem .5rem  1rem #ccc,
+    -.5rem -.5rem 1rem #fff
+     padding : 0.5rem 0.7rem;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+    
+    
+    button:hover {
+        box-shadow: .5rem .5rem  1rem #fff,
+        -.5rem -.5rem 1rem #ccc
+    }
+    
+    
+     button:active {
+    
+        box-shadow: inset .2rem .2rem  1rem #ccc,
+    
+    }
+    
+    
+    
+    .habilidades-lista {
+        display: flex;
+        justify-content: center; 
+    }
+    
+    
+    article {
+        display: block;
+    }
+    
+    
+    
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    section{
+       height: 90vh;
+    }
+    
+    section#inicio{
+        background-color:#EBDEF0  ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -1px 4px 27px 1px rgba(57,0,239,0.75);
+        -webkit-box-shadow: -1px 4px 27px 1px rgba(57,0,239,0.75);
+        -moz-box-shadow: -1px 4px 27px 1px rgba(57,0,239,0.75);
+    }
+    
+    h1{
+    
+        font-size: 4rem; 
+        font-weight: 700;
+        font-family: 'Lexend', sans-serif;
+       
+    }
+    
+    h2{
+        
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Lexend', sans-serif;
+       
+        
+    } 
+    
+    #sobre-mi{
+        height: 100px;
+        background-color: #EBDEF0 ;
+    }
+
+    #conocimientos-titulo {
+        display:flex;
+        justify-content: center;
+        height: auto;
+        padding-top: 50px;
+        background-color: #EBDEF0;  
+    }
+    
+    section#conocimientos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color:#EBDEF0;
+        font-family: 'Roboto', sans-serif;
+
+        height: auto;
+    }
+
+    section#conocimientos section#conocimientos-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color:#EBDEF0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    section#conocimientos-3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #F5EEF8 ;
+    
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .conocimientos-detalle{
+        border: 5px solid grey;
+        border-radius: 15px;
+        width: 300px;
+        margin: 50px;
+        background-color: #F5EEF8  ;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    .conocimientos-detalle img{
+    width: 100%;
+    }
+    
+    
+    header{
+        position: sticky;
+        top: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        background-color:#D7BDE2;
+        font-family: 'Roboto', sans-serif;
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+   
+    }
+    
+
+    /* SECCION CONTACTO  */
+
+
+
+
+
+.contacto {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EBDEF0;
+    box-shadow: plum
+    
+  
+}
+
+
+h3{
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+    
+
+}
+
+p{
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  
+
+}
